@@ -1,0 +1,96 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VSCode 和 JetBrains IDE 配置文件（可选）
+.vscode/
+.idea/
+
+# 通用编译输出
+*.log
+*.out
+*.o
+*.obj
+*.pyc
+*.pyo
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.d
+*.dSYM/
+*.swp
+*.swo
+*.tmp
+
+# Python 虚拟环境
+venv/
+env/
+__pycache__/
+
+# CMake/Make 构建输出
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Rust 构建输出
+/target/
+
+# Go 构建输出
+/bin/
+/pkg/
+
+# Node.js 输出和依赖
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+*.tsbuildinfo
+
+# Java 构建输出
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+build/
+
+# Web 前端缓存文件
+.cache/
+*.local
+
+# 日志、测试输出
+coverage/
+*.lcov
+*.gcov
+*.prof
+*.profraw
+
+# 环境文件（根据需要）
+.env
+.env.*
+
+# 其他可选（你可以注释掉或启用）
+# 包含临时笔记、输出文件夹
+tmp/
+logs/
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+
+# LeetCode 题目本地自动抓取工具生成的缓存（如果你用了的话）
+.leetcode/

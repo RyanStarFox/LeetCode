@@ -1,0 +1,1 @@
+from prob 13: map比switch高效太多了
